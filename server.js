@@ -25,11 +25,7 @@ var articles={
     date:'sep 10 2016',
     content:`
            <p>
-             this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
-            </p>
-            <p>
-                 this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page. this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
-            </p>
+             this is the content of my second html page.
             `
         },
         'article-three':{
@@ -38,10 +34,7 @@ var articles={
     date:'sep 15 2016',
     content:`
            <p>
-             this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
-            </p>
-            <p>
-                 this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page. this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
+             this is the content of my third html page.
             </p>
             `
         }
