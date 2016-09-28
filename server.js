@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne={
+var articles={ 
+    articleOne :{
     title:'article-one|neethu.a.n',
     heading:'article-one',
     date:'sep 5 2016',
@@ -17,7 +18,34 @@ var articleOne={
                  this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page. this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
             </p>
             `
-        };
+        },
+        articleTwo:{
+            title:'article-one|neethu.a.n',
+    heading:'article-one',
+    date:'sep 5 2016',
+    content:`
+           <p>
+             this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
+            </p>
+            <p>
+                 this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page. this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
+            </p>
+            `
+        },
+        articleThree:{
+            title:'article-one|neethu.a.n',
+    heading:'article-one',
+    date:'sep 5 2016',
+    content:`
+           <p>
+             this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
+            </p>
+            <p>
+                 this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page. this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
+            </p>
+            `
+        }
+};
 function createTemplate (data){ 
     var title=data.title;
     var heading=data.heading;
@@ -56,11 +84,11 @@ app.get('/article-one', function (req, res) {
 });
 
 app.get('/article-two', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui','article-two.html'));
+   res.send(createTemplate(articleOne));
 });
 
 app.get('/article-three', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui','article-three.html'));
+   res.send(createTemplate(articleOne));
 });
 
 
