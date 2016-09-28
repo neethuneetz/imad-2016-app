@@ -20,9 +20,9 @@ var articles={
             `
         },
         articleTwo:{
-            title:'article-one|neethu.a.n',
-    heading:'article-one',
-    date:'sep 5 2016',
+            title:'article-two|neethu.a.n',
+    heading:'article-two',
+    date:'sep 10 2016',
     content:`
            <p>
              this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
@@ -33,9 +33,9 @@ var articles={
             `
         },
         articleThree:{
-            title:'article-one|neethu.a.n',
-    heading:'article-one',
-    date:'sep 5 2016',
+            title:'article-three|neethu.a.n',
+    heading:'article-three',
+    date:'sep 15 2016',
     content:`
            <p>
              this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.this is the content of my fist html page.
