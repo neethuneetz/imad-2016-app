@@ -77,6 +77,11 @@ app.get('/my_profile', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'my_profile.html'));
 });
 
+app.get('/my_blog', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'my_blog.html'));
+});
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
